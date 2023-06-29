@@ -105,13 +105,13 @@
 
         .videocontainer{  display: flex;justify-content: center; width: 1300px; height: auto; margin: 20px; flex-wrap: wrap;}
 
-        .videocontainer video{ width: 600px; height: 380px; margin: 10px 20px; }
+        .videocontainer iframe{ width: 600px; height: 380px; margin: 10px 20px; }
 
         .shortsvideocontainer{  display: flex;justify-content:space-evenly ;width: 1300px; height:auto; margin: 20px; flex-wrap: wrap;}
 
-        .shortsvideocontainer video{ width: 250px; height: 520px; margin: 10px 20px; }
+        .shortsvideocontainer iframe{ width: 250px; height: 520px; margin: 10px 20px; }
 
-        .videocontainer video:hover{ cursor: pointer; }
+        .videocontainer iframe:hover{ cursor: pointer; }
 
         .shortsvideocontainer video:hover{ cursor: pointer; }
 
@@ -319,19 +319,19 @@
 /* 
             responsiveseventhsection */
 
-            @media screen and (max-width:660px){ .videocontainer video { width: 450px; height: 250px;}
+            @media screen and (max-width:660px){ .videocontainer iframe { width: 450px; height: 250px;}
             
         }
 
-        @media screen and (max-width:480px){ .videocontainer video { width: 350px; height: 250px;}
+        @media screen and (max-width:480px){ .videocontainer iframe { width: 350px; height: 250px;}
             
         }
 
-        @media screen and (max-width:370px){ .videocontainer video { width: 250px; height: 150px;}
+        @media screen and (max-width:370px){ .videocontainer iframe { width: 250px; height: 150px;}
             
         }
 
-        @media screen and (max-width:270px){ .videocontainer video { width: 150px; height: 150px;}
+        @media screen and (max-width:270px){ .videocontainer iframe { width: 150px; height: 150px;}
             
         }
 
@@ -536,8 +536,8 @@
         
     <div class="videocontainer">
 
-        <video controls src="videos/car 21 april.mp4"></video>
-        <video controls src="videos/improve again.mp4"></video>
+        <iframe src="https://player.vimeo.com/video/840871663?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="car 21 april"></iframe>
+        <iframe src="https://player.vimeo.com/video/840874968?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1920" height="1080" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="improve again"></iframe>
 
     </div>
 
